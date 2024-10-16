@@ -1,1 +1,3 @@
-![image](https://github.com/user-attachments/assets/55d5fb30-283e-4b3b-86b2-ff9e95b3a5ef)
+This is how the site looks like:
+
+![image](https://github.com/user-attachments/assets/40ce62fd-de3d-4d55-a648-21782c705779)
