@@ -1,0 +1,101 @@
+.footerContainer{
+    width: 100%;
+    /* border: 1px solid yellow; */
+    box-sizing: border-box;
+    padding: 10px 70px;
+    background: #000000;
+    color: #ffffff;
+}
+.footerSectionOne, .footerSectionTwo{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid pink; */
+    justify-content: space-between;
+}
+
+.subscribe > h4 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.subscribe > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.input{
+    width: 584px;
+    height: 48px;
+    /* border: 1px solid red; */
+}
+
+.input > input{
+    padding: 14px 24px 14px 8px;
+    gap: 8px;
+    /* height: 40px; */
+    /* display: inline; */
+    width: 355px;
+}
+
+.input > button{
+    height: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    opacity: 30%;
+    /* left: 400px; */
+    margin-left: 5px;
+    width: 184px;
+    border: 1.14px solid #FFFFFF;
+    background-color: #000000;
+    color: #FFFFFF;
+    line-height: 21.6px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Simplon Norm";
+    cursor: pointer;
+}
+
+.contact > p{
+    font-size: 16px;
+}
+
+.contactLast{
+    font-size: 12px;
+    line-height: 14.4px;
+}
+
+.currency{
+    font-weight: 700;
+}
+.follow{
+    font-weight: 700;
+}
+
+.meta > p, .links > p{
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 400;
+}
+
+.meta > h4, .links > h4, .follow > h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.socialIcons > img{
+    margin-right: 10px;
+}
+
+.payIcons > img {
+    height: 35px;
+    width: 56px;
+    margin-right: 7px;
+}
+
+.copyright{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+}

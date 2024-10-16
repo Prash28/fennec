@@ -1,0 +1,66 @@
+.announcementBanner{
+    /* top: 0px;
+    margin-top: 0; */
+    text-align: center;
+    position: sticky;
+    border: 1px solid black;
+    height: 50px;
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.announcementBanner > p{
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo{
+    width: 25%;
+    text-align: center;
+}
+.sitename{
+    text-align: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    width: 50%;
+}
+.navTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 25%;
+    /* padding: 30px; */
+}
+
+.logo > img{
+    height: 40px;
+    width: 40px;
+}
+
+.navBottom{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.navBottom > h4 {
+    margin-right: 15px;
+}

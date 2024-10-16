@@ -1,0 +1,115 @@
+
+.bannerContent{
+    text-align: center;
+}
+
+.optionsBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.optionsOne{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.dropdownTop{
+    position: relative;
+    width: 148px;
+    /* border: 1px solid red; */
+    height: 40px;
+    /* border: none; */
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.dropdownBottom{
+    box-sizing: border-box;
+    position: absolute;
+    text-align: right;
+    /* margin-top: 0px; */
+    z-index:2;
+    background-color: #ffffff;
+    /* border: 1px solid red; */
+    padding: 0px 20px;
+    width: 200px;
+    height: 200px;
+    visibility: hidden;
+    /* top: 40px; */
+    box-shadow: 0px 0px 7px 1px #A3AAAF33;
+
+}
+.dropdownBottom.visible{
+    visibility: visible;
+}
+.dropdownBottom>p{
+    width: 100%;
+}
+.dropdownBottom>p:hover{
+    /* background-color: gray; */
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.filter{    
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.itemsText{
+    font-weight: 700;
+}
+
+.filterText{
+    cursor: pointer;
+    text-decoration: underline;
+    color: gray;
+}
+
+.mainContent{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    gap: 40px;
+    /* border: 1px solid red; */
+    padding-left: 30px;
+    width: 100%;
+}
+
+.itemsSection{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+    max-width: 100%;
+    min-width: 60%;
+    align-content: center;    
+}
+
+.filterSection{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    width: 42%;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+/* .filterSection > div{
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .filterChecks{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+} */
