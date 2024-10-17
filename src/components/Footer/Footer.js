@@ -45,7 +45,7 @@ function Footer() {
             <div className="follow">
                 <h4>FOLLOW US</h4>
                 <div className="socialIcons">
-                    <img src="/insta.png" alt="insta" />
+                    <img src="/Insta.png" alt="insta" />
                     <img src="/a.png" alt="linkedin" />
                 </div>
                 <h4>mettā muse ACCEPTS</h4>
