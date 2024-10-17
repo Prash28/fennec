@@ -6,11 +6,19 @@
     background: #000000;
     color: #ffffff;
 }
+
 .footerSectionOne, .footerSectionTwo{
     display: flex;
     flex-direction: row;
     /* border: 1px solid pink; */
     justify-content: space-between;
+}
+
+@media screen and (max-width: 900px){
+    .footerSectionOne, .footerSectionTwo{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .subscribe > h4 {

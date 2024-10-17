@@ -3,7 +3,7 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <div className="footerContainer">
+    <footer className="footerContainer">
         <div className="footerSectionOne">
             <div className="subscribe">
                 <h4>BE THE FIRST TO KNOW</h4>
@@ -62,7 +62,7 @@ function Footer() {
         <div className="copyright">
             <p>Copyright © 2023 mettamuse. All rights reserved.</p>
         </div>
-    </div>
+    </footer>
   )
 }
 

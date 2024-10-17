@@ -55,6 +55,12 @@
     cursor: pointer;
 }
 
+@media (max-width: 768px){
+    .filterSection{
+        display: none;
+    }
+}
+
 .filter{    
     display: flex;
     flex-direction: row;
@@ -64,13 +70,30 @@
 .itemsText{
     font-weight: 700;
 }
-
+.filterTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.filterTitle p{
+    cursor: pointer;
+}
+.allText{
+    margin-top: 0;
+}
 .filterText{
     cursor: pointer;
     text-decoration: underline;
     color: gray;
 }
-
+.filterChecks.visible{
+    display: block
+}
+.filterChecks.hidden{
+    display: none;
+}
 .mainContent{
     box-sizing: border-box;
     display: flex;
