@@ -3,4 +3,5 @@ Login page:
 
 
 Home page:
-![image](https://github.com/user-attachments/assets/ef56f9d2-913a-4ad7-9b90-37ce092bc747)
+![image](https://github.com/user-attachments/assets/e1778186-4990-4bac-841b-4328d2229600)
+
