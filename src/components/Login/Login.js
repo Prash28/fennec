@@ -2,7 +2,7 @@ import Cookies from 'js-cookie'
 import { Navigate } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
-import classes from './Login.module.css'
+import './Login.css'
 
 function Login({isAuthenticated, handleAuthentication}) {
     const navigate = useNavigate();
@@ -74,36 +74,36 @@ function Login({isAuthenticated, handleAuthentication}) {
   }
 
   return (
-    <div className={classes.BgContainer}>
-      <div className={classes.LoginContainer}>
-        <h1 className={classes.LoginHeading}>Login</h1>
-        <form className={classes.FormContainer} onSubmit={onSubmitForm}>
-          <label htmlFor="userName" className={classes.LabelElement}>
+    <div className="BgContainer">
+      <div className="LoginContainer">
+        <h1 className="LoginHeading">Login</h1>
+        <form className="FormContainer" onSubmit={onSubmitForm}>
+          <label htmlFor="userName" className="LabelElement">
             USERNAME
           </label>
           <input
             type="text"
             id="userName"
-            className={classes.InputElement}
+            className="InputElement"
             onChange={onChangeUsername}
             value={username}
-            placeholder="USER NAME"
+            placeholder="Enter username"
           />
-          <label htmlFor="password" className={classes.LabelElement}>
+          <label htmlFor="password" className="LabelElement">
             PASSWORD
           </label>
           <input
             type={isShowPassword ? 'text' : 'password'}
             id="password"
-            className={classes.InputElement}
+            className="InputElement"
             onChange={onChangePassword}
             value={password}
-            placeholder="PASSWORD"
+            placeholder="Enter password"
           />
 
-          {showErrorMsg && <p className={classes.ErrorMsg}>*{errorMsg}</p>}
+          {showErrorMsg && <p className="ErrorMsg">*{errorMsg}</p>}
 
-          <button className={classes.LoginButton} type="submit">
+          <button className="LoginButton" type="submit">
             Login
           </button>
         </form>
